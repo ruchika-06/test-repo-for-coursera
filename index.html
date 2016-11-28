@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html ng-app="myFirstApp">
+<html ng-app='NameCalculator'>
   <head>
-
     <meta charset="utf-8">
-    <script scr="angular.min.js"></script>
+
+    <script src = "angular.min.js"></script>
     <script src="app.js"></script>
-    <title>hello coursera</title>
+    <title>My First App</title>
   </head>
   <body>
-    <div ng-controller="MyFirstController">
-      {{name}}
-  <h1>My first angular app</h1>
+ <h1> My First Angular App</h1>
+<div ng-controller="NameCalculatorController">
+   <input type="text" ng-model=name ng-keyup=displayNumeric() >
+ {{name}}
+
+ {{totalValue}}
 </div>
-  </body>
+</body>
 </html>
