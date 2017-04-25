@@ -1,32 +1,14 @@
-(
-function(){
+(function(){
 
-angular.module('FoodCountApp',[]).controller('FoodCountAppController',function($scope)
-{
-
-$scope.items="";
-
-$scope.check=function()
-{
-  return $scope.items+"hello";
-};
+var app=angular.module('FoodApp',[]);
+app.controller('FoodAppCOntroller',function($scope){
+  $scope.items="";
+});
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-};)
-})();
+}
+)();

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="FoodApp">
   <head>
     <meta charset="utf-8">
     <title>Food Check</title>
+      <script src="angular.min.js"></script>
+    <script src="assignApp.js"></script>
+
   </head>
-  <body>
-    <div>
+  <body >
+    <div ng-controller="FoodAppController">
      Enter the items you would like to eat:-
-     <input type="text" ng-model="items" >
+     <input type="text" ng-model=items >
      {{items}}
      {{check()}}
-     
+
 
     </div>
   </body>

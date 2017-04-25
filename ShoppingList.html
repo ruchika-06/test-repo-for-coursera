@@ -1,0 +1,22 @@
+<html>
+<script src="angular.min.js"></script>
+<script src="shopApp.js"></script>
+<link rel="stylesheet" href="shopAppStyle.css">
+<head>
+  <title> Shopping List</title>
+<body ng-app='ShoppingApp'>
+
+  <div ng-controller='ShoppingAppController' align="center" id="list">
+      <h1 id="heading">Shopping List</h1>
+  <div >
+    <ol>
+    <li id="listItem" ng-repeat="x in prodList">{{x}} Cost:{{cost|currency :$ :4}}</li>
+
+  <div>
+
+  <input  ng-model="addMe">
+  <button ng-click="addItem()" clear-input>Add</button>
+
+</div>
+<body>
+</html>

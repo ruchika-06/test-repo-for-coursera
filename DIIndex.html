@@ -11,7 +11,9 @@
 <h1> Dependency Injection</h1>
 <div ng-controller="DIController">
 
-   {{sayMessage()}}
+  original: {{sayMessage()}} <br>
+ filter: {{msg|loves}}<br>
+ truth:{{msg | truth:"eat": "dressup"}}
    <div>
   <button ng-click="feed()">feed</button>
   <br>
