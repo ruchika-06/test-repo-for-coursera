@@ -1,4 +1,4 @@
-/* @override 
+/* @override
   http://planetoftheweb.com/_/css/styles.css */
 
 @import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
@@ -72,10 +72,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html {
-  background-color: #023E54; 
-  background-image: url(images/fallback-gradient.png); 
+  background-color: #023E54;
+  background-image: url(images/fallback-gradient.png);
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#023E54), to(#10AAC0));
-  background-image: -webkit-linear-gradient(top, #023E54, #10AAC0); 
+  background-image: -webkit-linear-gradient(top, #023E54, #10AAC0);
   background-image: -moz-linear-gradient(top, #023E54, #10AAC0);
   background-image: -o-linear-gradient(top, #023E54, #10AAC0);
   min-height: 100%;
@@ -109,13 +109,13 @@ h1{
   margin-bottom: 10px;
 }
 
-h2{ 
+h2{
   font-size: 1.5rem;
   line-height: 90%;
   color: #c61c6f;
 }
 
-h3{ 
+h3{
   margin-top: 0;
   color: #bd3613;
   line-height: 110%;
@@ -228,7 +228,7 @@ a.small {
 
 /* Artist List Styles */
 
-.artistlist {
+.assetlist {
   background: #EEE8D5;
   width: 50%;
   min-width: 290px;
@@ -240,13 +240,13 @@ a.small {
   z-index: 10;
 }
 
-.artistlist ul {
+.assetlist ul {
   margin: 0;
   padding: 0;
   background: #FDF6E3;
 }
 
-.artistlist li {
+.assetlist li {
   margin: 0;
   padding: 10px 10px 0 10px;
   border-bottom: 1px dotted black;
@@ -257,12 +257,12 @@ a.small {
   transition: all 0.3s ease-out;
 }
 
-.artistlist a {
+.assetlist a {
   display: block;
   text-decoration: none;
 }
 
-.artistlist li:hover {
+.assetlist li:hover {
   background: #FDF6E3;
   opacity: 1;
   -webkit-transform: scale(1.2);
@@ -271,7 +271,7 @@ a.small {
   transform: scale(1.2);
 }
 
-.artist img {
+.asset img {
   display: block;
   float: left;
   width: 60px;
@@ -281,17 +281,17 @@ a.small {
   margin-bottom: 10px;
 }
 
-.artist info {
+.asset info {
   display: block;
   float: left;
   padding-left: 120px !important;
 }
 
-.artist:last-child {
+.asset:last-child {
   border-bottom:none;
 }
 
-.artistinfo {
+.assetinfo {
   font-size: 1.1em;
   line-height: 160%;
   background: #EEE8D5;
@@ -307,28 +307,27 @@ a.small {
   z-index: 20;
 }
 
-.artistinfo h1{
+.assetinfo h1{
   font-size: 1.8em;
   margin-bottom: 0;
 }
 
-.artistinfo img {
+.assetinfo img {
   width: 40%;
   max-width: 130px;
   border-radius: 20px;
 }
 
-.artist.ng-enter.ng-enter-active,
-.artist.ng-leave {
+.asset.ng-enter.ng-enter-active,
+.asset.ng-leave {
   opacity: 1;
   height: 80px;
   overflow: hidden;
 }
 
-.artist.ng-leave.ng-leave-active,
-.artist.ng-enter {
+.asset.ng-leave.ng-leave-active,
+.asset.ng-enter {
   opacity: 0;
   height: 0;
   overflow: hidden;
 }
-

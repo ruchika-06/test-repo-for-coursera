@@ -1,12 +1,12 @@
-<section class="artistinfo">
-  <div class="artist cf" ng-model="artists">
+<section class="assetinfo">
+  <div class="asset cf" ng-model="assets">
     <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
     <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
-    <h1>{{artists[whichItem].name}}</h1>
+    <h1>{{assets[whichItem].VMName}}</h1>
     <div class="info">
-      <h3>{{artists[whichItem].reknown}}</h3>
-      <img ng-src="images/{{artists[whichItem].shortname}}_tn.jpg" alt="Photo of {{artists[whichItem].name}}">
-      <div class="bio">{{artists[whichItem].bio}}</div>
+      <h3>{{assets[whichItem].OS}}</h3>
+      <img ng-src="images/{{assets[whichItem].shortname}}_tn.jpg" alt="Photo of {{assets[whichItem].name}}">
+      <div class="specs">{{assets[whichItem].VMID}}</div>
     </div>
   </div>
   <a href="index.html">&laquo; Back to search</a>
